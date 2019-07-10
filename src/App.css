@@ -5,12 +5,40 @@ body {
   font-family: "Roboto Condensed", sans-serif;
 }
 
-.App {
+.APODContainer {
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: center;
+}
+
+input {
+  margin-bottom: 40px;
 }
 
 img {
   width: 500px;
+}
+
+.explanation {
+  width: 70%;
+}
+
+.months {
+  display: flex;
+  flex-direction: column;
+}
+
+.days {
+  display: flex;
+  flex-direction: column;
+}
+
+.years {
+  display: flex;
+  flex-direction: column;
+}
+
+li {
+  list-style-type: none;
 }
