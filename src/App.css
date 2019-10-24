@@ -10,33 +10,25 @@ body {
   flex-direction: column;
   align-items: center;
   text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
-input {
-  margin-bottom: 40px;
+.dateInput {
+  margin-right: 90px;
 }
 
-img {
-  width: 500px;
+.apod {
+  width: 550px;
+  height: 500px;
+  margin-top: 20px;
+  margin-bottom: 30px;
 }
 
 .explanation {
   width: 70%;
-}
-
-.months {
-  display: flex;
-  flex-direction: column;
-}
-
-.days {
-  display: flex;
-  flex-direction: column;
-}
-
-.years {
-  display: flex;
-  flex-direction: column;
+  margin-top: 15px;
+  font-size: 1.5rem;
 }
 
 li {
